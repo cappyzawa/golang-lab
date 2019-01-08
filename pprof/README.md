@@ -1,8 +1,6 @@
 # pprof
 ```bash
-$ go build main.go
-$ ./main
+$ go run main.go
 
-$ curl -s http://localhost:6060/debug/pprof/profile > cpu.pprof
-$ go tool pprof -png main cpu.pprof > out.png
+$ go tool pprof -http=":8888" localhost:6060
 ```

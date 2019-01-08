@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"net"
 	"net/http"
 	_ "net/http/pprof"
 )
@@ -14,11 +15,12 @@ func fib(n int) int {
 }
 
 func main() {
-	go func() {
-		http.ListenAndServe("localhost:6060", nil)
-	}()
-
-	fmt.Println("start")
+	l, err := net.Listen("tcp", ":6060")
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println("Listening on", l.Addr())
+	go http.Serve(l, nil)
 	for {
 		fib(30)
 	}
