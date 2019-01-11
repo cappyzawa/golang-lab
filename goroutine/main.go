@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-func input(r io.Reader) <- chan string {
+func input(r io.Reader) <-chan string {
 	ch := make(chan string)
 	go func() {
 		s := bufio.NewScanner(r)
