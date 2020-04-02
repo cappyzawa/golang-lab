@@ -6,7 +6,7 @@ require (
 	github.com/spf13/cobra v0.0.7
 	github.com/spf13/viper v1.6.2
 	go.uber.org/dig v1.7.0 // indirect
-	go.uber.org/fx v1.10.0
+	go.uber.org/fx v1.11.0
 	go.uber.org/zap v1.14.1
 	golang.org/x/crypto v0.0.0-20190621222207-cc06ce4a13d4
 	golang.org/x/sync v0.0.0-20181221193216-37e7f081c4d4
