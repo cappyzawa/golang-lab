@@ -4,7 +4,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/sergi/go-diff v1.1.0
 	github.com/spf13/cobra v0.0.7
-	github.com/spf13/viper v1.6.2
+	github.com/spf13/viper v1.6.3
 	go.uber.org/dig v1.7.0 // indirect
 	go.uber.org/fx v1.11.0
 	go.uber.org/zap v1.14.1
