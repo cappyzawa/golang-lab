@@ -1,7 +1,7 @@
 module github.com/cappyzawa/golang-lab
 
 require (
-	github.com/99designs/gqlgen v0.13.0
+	github.com/99designs/gqlgen v0.12.2
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/sergi/go-diff v1.1.0
 	github.com/spf13/cobra v0.0.7
