@@ -3,7 +3,7 @@ module github.com/cappyzawa/golang-lab
 require (
 	github.com/99designs/gqlgen v0.13.0
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/sergi/go-diff v1.1.0
+	github.com/sergi/go-diff v1.2.0
 	github.com/spf13/cobra v0.0.7
 	github.com/spf13/viper v1.7.1
 	github.com/vektah/gqlparser/v2 v2.1.0
