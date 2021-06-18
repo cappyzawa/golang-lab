@@ -2,7 +2,7 @@ module github.com/cappyzawa/golang-lab
 
 require (
 	github.com/99designs/gqlgen v0.13.0
-	github.com/google/uuid v1.1.2
+	github.com/google/uuid v1.2.0
 	github.com/gookit/color v1.4.2
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/sergi/go-diff v1.2.0
