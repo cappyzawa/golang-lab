@@ -7,7 +7,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/sergi/go-diff v1.2.0
 	github.com/spf13/cobra v0.0.7
-	github.com/spf13/viper v1.8.0
+	github.com/spf13/viper v1.8.1
 	github.com/vektah/gqlparser/v2 v2.2.0
 	go.uber.org/fx v1.13.1
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
