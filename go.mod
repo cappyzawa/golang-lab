@@ -5,7 +5,7 @@ require (
 	github.com/google/uuid v1.3.0
 	github.com/gookit/color v1.5.2
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/sergi/go-diff v1.2.0
+	github.com/sergi/go-diff v1.3.1
 	github.com/spf13/cobra v1.6.1
 	github.com/spf13/viper v1.15.0
 	github.com/vektah/gqlparser/v2 v2.5.1
